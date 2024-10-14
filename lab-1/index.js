@@ -1,2 +1,2 @@
-import "./app/dist/perfect-squares.js";
-import "./app/dist/sqrt-sequence.js";
+import "./app/dist/perfectSquares.js";
+import "./app/dist/sqrtSequence.js";
