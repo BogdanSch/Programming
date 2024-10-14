@@ -3,18 +3,14 @@ const findCombinations = (K: number, M: number): void => {
     console.log("No valid combinations: total wings must be even.");
     return;
   }
-
   const parrots = M / 2;
   const legsFromParrots = parrots * 2;
   const remainingLegs = K - legsFromParrots;
-
   if (remainingLegs < 0 || remainingLegs % 4 !== 0) {
     console.log("No valid combinations found.");
     return;
   }
-
   const maxGuineaPigsLizards = remainingLegs / 4;
-
   for (
     let gineaPigsAmount: number = 0;
     gineaPigsAmount <= maxGuineaPigsLizards;
